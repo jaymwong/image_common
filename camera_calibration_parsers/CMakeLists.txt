@@ -1,6 +1,8 @@
 cmake_minimum_required(VERSION 2.8)
 project(camera_calibration_parsers)
 
+add_compile_options(-std=c++11)
+
 find_package(catkin REQUIRED sensor_msgs rosconsole roscpp roscpp_serialization)
 
 find_package(PythonLibs REQUIRED)
